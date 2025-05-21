@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (facultatif, selon si tu veux partager ou pas)
+.vscode/
+
+# Cache
+.cache/
+*.log
+
+# Package locks (si tu utilises yarn ou pnpm à la place de npm)
+yarn.lock
+pnpm-lock.yaml
+
+# Temp files
+*.tmp
+*.swp
+*.bak

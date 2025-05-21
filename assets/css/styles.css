@@ -1,0 +1,156 @@
+/* ---------------------------------------------------------------------------------------- */
+/*      ** Body **         */
+/* ---------------------------------------------------------------------------------------- */
+
+body {
+    background-image: url('./bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/*      ** Vidéo frame **         */
+/* ---------------------------------------------------------------------------------------- */
+iframe {
+    border-radius: 15px;
+}
+
+iframe:hover {
+    box-shadow: 1px 0px 3px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/*      ** Title **         */
+/* ---------------------------------------------------------------------------------------- */
+
+
+h1 {
+    color: white;
+    font-size: 100px;
+    margin: 0;
+}
+
+
+h2 {
+    color: white;
+    margin: 0;
+}
+
+h3 {
+    color: #ffafb3;
+    margin: 0;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/*      ** Containers **         */
+/* ---------------------------------------------------------------------------------------- */
+
+.live-all {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    border-radius: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.live-info {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.title-container {
+    width: 100vw;
+    text-align: center;
+    height: auto;
+}
+
+.center-container {
+    width: 100vw;
+    text-align: center;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container {
+    width: auto;
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/*      ** Buttons **         */
+/* ---------------------------------------------------------------------------------------- */
+
+button {
+    background-color: #ffafb3;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    height: 2.5rem;
+    margin: 0;
+    padding: 0;
+    width: 6rem;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    cursor: pointer;
+}
+/* ---------------------------------------------------------------------------------------- */
+/*      ** Arrows **         */
+/* ---------------------------------------------------------------------------------------- */
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

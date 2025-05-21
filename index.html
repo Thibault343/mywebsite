@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lofi-Site</title>
+    <link rel="stylesheet" href="/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title-container">
+        <h1>Lofi Radio</h1>
+    </div>
+    
+    <div class="center-container">
+        <div class="youtube-container">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/4xDzrJKXOOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+            <div class="menu-container">
+                <div class="live-all">
+                    <button class="buttons-swipe" id="btnprev">
+                        <i class="arrow left"></i>
+                    </button>
+                    <div class="live-info">
+                        <h2 id="song-title"></h2>
+                        <h3 id="category"></h3>
+                    </div>
+                    <button class="buttons-swipe" id="btnnext">
+                        <i class="arrow right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
